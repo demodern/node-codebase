@@ -1,6 +1,6 @@
 {
-  "name": "codebase",
-  "version": "1.0.1",
+  "name": "node-codebase",
+  "version": "1.0.0",
   "description": "Codebase API wrapper",
   "keywords": [
     "api",
