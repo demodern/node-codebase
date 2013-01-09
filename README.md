@@ -2,10 +2,13 @@
 
 A NodeJS wrapper for the [CodeBaseHQ](http://www.codebasehq.com/) API. 
 
+## Install from NPM
+ npm install codebase
+
 ## Example usage
 
     var http = require('http'),
-        Codebase = require('./lib/codebase');
+        Codebase = require('codebase');
 
     var cb = new Codebase(
         'api url',
@@ -35,4 +38,3 @@ A NodeJS wrapper for the [CodeBaseHQ](http://www.codebasehq.com/) API.
 
 * Write documentation
 * Finish "tickets.attachments.upload" method
-* Publish to npm

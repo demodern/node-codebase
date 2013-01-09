@@ -1,6 +1,6 @@
 {
-  "name": "coebase",
-  "version": "1.0.0",
+  "name": "codebase",
+  "version": "1.0.1",
   "description": "Codebase API wrapper",
   "keywords": [
     "api",
