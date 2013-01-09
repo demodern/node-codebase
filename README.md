@@ -3,7 +3,7 @@
 A NodeJS wrapper for the [CodeBaseHQ](http://www.codebasehq.com/) API. 
 
 ## Install from NPM
- npm install codebase
+    npm install codebase
 
 ## Example usage
 
