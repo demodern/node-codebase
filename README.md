@@ -10,6 +10,8 @@ A NodeJS wrapper for the [CodeBaseHQ](http://www.codebasehq.com/) API.
     var http = require('http'),
         Codebase = require('codebase');
 
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0 
+
     var cb = new Codebase(
         'api url',
         'account/username:apikey'
@@ -33,6 +35,17 @@ A NodeJS wrapper for the [CodeBaseHQ](http://www.codebasehq.com/) API.
     }).listen(8080);
 
     console.log('Server running at http://localhost:8080/');
+
+
+## Config
+
+API URL should be the following in most cases:
+'api3.codebasehq.com'
+
+Theres a bug in node, to be able to connect add the following line before calling codebase:
+
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0 
+
 
 ## TODO
 
